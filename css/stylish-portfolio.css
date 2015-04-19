@@ -27,14 +27,14 @@ body {
 .btn-dark {
     border-radius: 0;
     color: #fff;
-    background-color: rgba(0,0,0,0.4);
+    background-color: #560e82;
 }
 
 .btn-dark:hover,
 .btn-dark:focus,
 .btn-dark:active {
     color: #fff;
-    background-color: rgba(0,0,0,0.7);
+    background-color: #560e82;
 }
 
 .btn-light {
@@ -165,6 +165,7 @@ hr.small {
 
 .services {
     padding: 50px 0;
+    background-color: #aaa;
 }
 
 .service-item {
@@ -240,12 +241,12 @@ h1 {
   font-size: 30px;
 }
 
-@media(max-width:768px) {
+@media(min-width:768px) {
     h1 {
         font-size: 30px;
     }
-}
 
-.logo{
-  width: 40%;
+    .logo{
+      width: 40%;
+    }
 }
