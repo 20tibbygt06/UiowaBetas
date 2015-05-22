@@ -3,7 +3,6 @@
  * Code licensed under the Apache License v2.0.
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
-
 /* Global Styles */
 
 html,
@@ -21,20 +20,19 @@ body {
     text-align: center;
     vertical-align: middle;
 }
-
 /* Custom Button Styles */
 
 .btn-dark {
     border-radius: 0;
     color: #fff;
-    background-color: #560e82;
+    background-color: rgba(0,0,0,0.4);
 }
 
 .btn-dark:hover,
 .btn-dark:focus,
 .btn-dark:active {
     color: #fff;
-    background-color: #560e82;
+    background-color: rgba(0,0,0,0.7);
 }
 
 .btn-light {
@@ -140,7 +138,6 @@ hr.small {
 .toggle {
     margin: 5px 5px 0 0;
 }
-
 /* Header */
 
 .header {
@@ -148,73 +145,11 @@ hr.small {
     position: relative;
     width: 100%;
     height: 100%;
-    background-color: #000;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
 }
-
-/* About */
-
-.about {
-    padding: 50px 0;
-}
-
-/* Services */
-
-.services {
-    padding: 50px 0;
-    background-color: #aaa;
-}
-
-.service-item {
-    margin-bottom: 30px;
-}
-
-/* Callout */
-
-.callout {
-    display: table;
-    width: 100%;
-    height: 400px;
-    color: #fff;
-    background: url(../img/callout.jpg) no-repeat center center scroll;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
-}
-
-/* Portfolio */
-
-.portfolio {
-    padding: 50px 0;
-}
-
-.portfolio-item {
-    margin-bottom: 30px;
-}
-
-.img-portfolio {
-    margin: 0 auto;
-}
-
-.img-portfolio:hover {
-    opacity: 0.8;
-}
-
-/* Call to Action */
-
-.call-to-action {
-    padding: 50px 0;
-}
-
-.call-to-action .btn {
-    margin: 10px;
-}
-
-/* Map */
 
 .map {
     height: 500px;
@@ -225,28 +160,22 @@ hr.small {
         height: 75%;
     }
 }
-
-/* Footer */
-
-footer {
-    padding: 100px 0;
-}
-
 /*******************************************************************/
 
-
 h1 {
-  font-family: "Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: #fff;
   font-size: 30px;
 }
-
 @media(min-width:768px) {
-    h1 {
-        font-size: 30px;
-    }
-
-    .logo{
-      width: 40%;
-    }
+  h1 {
+    font-size: 30px;
+    font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  }
+}
+.logo {
+  width: 50%;
+}
+.letters {
+  width: 50%;
 }

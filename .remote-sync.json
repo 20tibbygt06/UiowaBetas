@@ -3,10 +3,10 @@
   "hostname": "104.236.254.60",
   "port": "22",
   "username": "root",
+  "password": "19danforth86",
   "target": "/var/www/html",
   "ignore": [
     ".git/**"
   ],
-  "uploadOnSave": true,
-  "useAgent": true
+  "uploadOnSave": true
 }
