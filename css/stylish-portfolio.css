@@ -13,6 +13,7 @@ body {
 
 body {
     font-family: "Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
+    background color: #333;
 }
 
 .text-vertical-center {
@@ -25,14 +26,14 @@ body {
 .btn-dark {
     border-radius: 0;
     color: #fff;
-    background-color: rgba(0,0,0,0.4);
+    background-color: #FF3399;
 }
 
 .btn-dark:hover,
 .btn-dark:focus,
 .btn-dark:active {
     color: #fff;
-    background-color: rgba(0,0,0,0.7);
+    background-color: #560e82;
 }
 
 .btn-light {
@@ -145,6 +146,7 @@ hr.small {
     position: relative;
     width: 100%;
     height: 100%;
+    background-color: #000;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -153,11 +155,13 @@ hr.small {
 
 .map {
     height: 500px;
+    background color: #333;
 }
 
 @media(max-width:768px) {
     .map {
         height: 75%;
+        background color: #333;
     }
 }
 /*******************************************************************/
@@ -165,7 +169,7 @@ hr.small {
 h1 {
   font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: #fff;
-  font-size: 30px;
+  font-size: 10px;
 }
 @media(min-width:768px) {
   h1 {
@@ -174,8 +178,20 @@ h1 {
   }
 }
 .logo {
-  width: 50%;
+  width: 60%;
 }
 .letters {
   width: 50%;
+}
+.annual {
+  width: 45%;
+}
+
+.sociallinks:hover, .sociallinks:active {
+    color:#fff;
+    padding:15px;
+}
+.sociallinks:link, .sociallinks:visited {
+    color:#fff;
+    padding:15px;
 }
