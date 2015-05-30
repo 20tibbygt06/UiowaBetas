@@ -164,7 +164,7 @@ hr.small {
 
 .services {
     padding: 50px 0;
-    background-color: #333;
+    background-color: #000;
 }
 
 .service-item {
@@ -195,7 +195,7 @@ hr.small {
 
 .call-to-action {
     padding: 50px 0;
-    background-color: #000;
+    background-color: #444;
 }
 
 .call-to-action .btn {
@@ -204,7 +204,7 @@ hr.small {
 
 .map {
     height: 50%;
-    background-color: #000;
+    background-color: #560e82;
 }
 
 @media(max-width:768px) {
@@ -266,4 +266,23 @@ h4{
 }
 p{
   color: #fff;
+}
+li{
+  font-size: 20px;
+}
+.white-icons{
+  color: #fff;
+}
+.black-icons{
+  color: #000;
+}
+
+.modal-header{
+  background: url(http://res.cloudinary.com/uiowabetas/image/upload/v1432975586/motherland/speakers.jpg) no-repeat center center scroll;
+  width: 100%;
+  height: 400px;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
 }
