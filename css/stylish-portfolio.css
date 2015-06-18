@@ -286,3 +286,43 @@ li {
   background-size: cover;
   -o-background-size: cover;
 }
+
+
+@media(max-width:768px) {
+.bbq {
+  background: url(http://res.cloudinary.com/uiowabetas/image/upload/v1434650338/motherland/bbqtime.jpg) no-repeat center center scroll;
+  width: 100%;
+  height: 200px;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+.olympics {
+  background: url(http://res.cloudinary.com/uiowabetas/image/upload/v1434653729/motherland/olympics.jpg) no-repeat center center scroll;
+  width: 100%;
+  height: 200px;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+.strollcomp {
+  background: url(http://res.cloudinary.com/uiowabetas/image/upload/v1434653516/motherland/stroll.jpg) no-repeat center center scroll;
+  width: 100%;
+  height: 200px;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+.social {
+  background: url(http://res.cloudinary.com/uiowabetas/image/upload/v1434656287/motherland/social.jpg) no-repeat center center scroll;
+  width: 100%;
+  height: 200px;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+}
