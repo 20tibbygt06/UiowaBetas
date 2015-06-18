@@ -217,9 +217,9 @@ hr.small {
 h1 {
   font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: #fff;
-  font-size: 10px;
+  font-size: 20px;
 }
-@media(min-width:768px) {
+@media(max-width:768px) {
   h1 {
     font-size: 30px;
     font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;

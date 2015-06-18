@@ -175,7 +175,7 @@ if ($_POST["submit"]) {
             <strong>Media</strong>
           </h2>
           <div class="text-center">
-            <a class="sociallinks" target="_blank" href="https://www.facebook.com/UiowaBetas"><i class="fa fa-facebook fa-3x"></i></a><a class="sociallinks" target="_blank" href="https://www.twitter.com/UiowaBetas"><i class="fa fa-twitter fa-3x"></i></a>
+            <a class="sociallinks" target="_blank" href="https://www.facebook.com/Uiowa.Betas"><i class="fa fa-facebook fa-3x"></i></a><a class="sociallinks" target="_blank" href="https://www.twitter.com/UiowaBetas"><i class="fa fa-twitter fa-3x"></i></a>
           </div>
         </div>
         <div class="clearfix"></div>

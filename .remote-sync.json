@@ -8,5 +8,6 @@
   "ignore": [
     ".git/**"
   ],
-  "uploadOnSave": true
+  "uploadOnSave": true,
+  "useAgent": true
 }
