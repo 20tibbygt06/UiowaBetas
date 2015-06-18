@@ -3,225 +3,202 @@
  * Code licensed under the Apache License v2.0.
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
+
+
 /* Global Styles */
 
-html,
-body {
-    width: 100%;
-    height: 100%;
+html, body {
+  width: 100%;
+  height: 100%;
 }
-
 body {
-    font-family: "Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
-                                                                             }
-
+  font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
 .text-vertical-center {
-    display: table-cell;
-    text-align: center;
-    vertical-align: middle;
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
 }
+
 /* Custom Button Styles */
 
 .btn-dark {
-    border-radius: 0;
-    color: #fff;
-    background-color: #FF3399;
+  border-radius: 0;
+  color: #fff;
+  background-color: #FF3399;
 }
-
-.btn-dark:hover,
-.btn-dark:focus,
-.btn-dark:active {
-    color: #fff;
-    background-color: #560e82;
+.btn-dark:hover, .btn-dark:focus, .btn-dark:active {
+  color: #fff;
+  background-color: #560e82;
 }
-
 .btn-light {
-    border-radius: 0;
-    color: #fff;
-    background-color: #560e82;
+  border-radius: 0;
+  color: #fff;
+  background-color: #560e82;
 }
-
-.btn-light:hover,
-.btn-light:focus,
-.btn-light:active {
-    color: #fff;
-    background-color: #560e82;
+.btn-light:hover, .btn-light:focus, .btn-light:active {
+  color: #fff;
+  background-color: #560e82;
 }
 
 /* Custom Horizontal Rule */
 
 hr.small {
-    max-width: 100px;
+  max-width: 100px;
 }
 
 /* Side Menu */
 
 #sidebar-wrapper {
-    z-index: 1000;
-    position: fixed;
-    right: 0;
-    width: 250px;
-    height: 100%;
-    margin-right: -250px;
-    overflow-y: auto;
-    background: #222;
-    -webkit-transition: all 0.4s ease 0s;
-    -moz-transition: all 0.4s ease 0s;
-    -ms-transition: all 0.4s ease 0s;
-    -o-transition: all 0.4s ease 0s;
-    transition: all 0.4s ease 0s;
+  z-index: 1000;
+  position: fixed;
+  right: 0;
+  width: 250px;
+  height: 100%;
+  margin-right: -250px;
+  overflow-y: auto;
+  background: #222;
+  -webkit-transition: all 0.4s ease 0s;
+  -moz-transition: all 0.4s ease 0s;
+  -ms-transition: all 0.4s ease 0s;
+  -o-transition: all 0.4s ease 0s;
+  transition: all 0.4s ease 0s;
 }
-
 .sidebar-nav {
-    position: absolute;
-    top: 0;
-    width: 250px;
-    margin: 0;
-    padding: 0;
-    list-style: none;
+  position: absolute;
+  top: 0;
+  width: 250px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
 }
-
 .sidebar-nav li {
-    text-indent: 20px;
-    line-height: 40px;
+  text-indent: 20px;
+  line-height: 40px;
 }
-
 .sidebar-nav li a {
-    display: block;
-    text-decoration: none;
-    color: #999;
+  display: block;
+  text-decoration: none;
+  color: #999;
 }
-
 .sidebar-nav li a:hover {
-    text-decoration: none;
-    color: #fff;
-    background: rgba(255,255,255,0.2);
+  text-decoration: none;
+  color: #fff;
+  background: rgba(255, 255, 255, 0.2);
 }
-
-.sidebar-nav li a:active,
-.sidebar-nav li a:focus {
-    text-decoration: none;
+.sidebar-nav li a:active, .sidebar-nav li a:focus {
+  text-decoration: none;
 }
-
 .sidebar-nav > .sidebar-brand {
-    height: 55px;
-    font-size: 18px;
-    line-height: 55px;
+  height: 55px;
+  font-size: 18px;
+  line-height: 55px;
 }
-
 .sidebar-nav > .sidebar-brand a {
-    color: #999;
+  color: #999;
 }
-
 .sidebar-nav > .sidebar-brand a:hover {
-    color: #fff;
-    background: none;
+  color: #fff;
+  background: none;
 }
-
 #menu-toggle {
-    z-index: 1;
-    position: fixed;
-    top: 0;
-    right: 0;
+  z-index: 1;
+  position: fixed;
+  top: 0;
+  right: 0;
 }
-
 #sidebar-wrapper.active {
-    right: 250px;
-    width: 250px;
-    -webkit-transition: all 0.4s ease 0s;
-    -moz-transition: all 0.4s ease 0s;
-    -ms-transition: all 0.4s ease 0s;
-    -o-transition: all 0.4s ease 0s;
-    transition: all 0.4s ease 0s;
+  right: 250px;
+  width: 250px;
+  -webkit-transition: all 0.4s ease 0s;
+  -moz-transition: all 0.4s ease 0s;
+  -ms-transition: all 0.4s ease 0s;
+  -o-transition: all 0.4s ease 0s;
+  transition: all 0.4s ease 0s;
 }
-
 .toggle {
-    margin: 5px 5px 0 0;
+  margin: 5px 5px 0 0;
 }
 
 /* Header */
 
 .header {
-    display: table;
-    position: relative;
-    width: 100%;
-    height: 100%;
-    background: url(http://res.cloudinary.com/uiowabetas/image/upload/v1432945296/motherland/danforth.jpg) no-repeat center center scroll;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
+  display: table;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background: url(http://res.cloudinary.com/uiowabetas/image/upload/v1432945296/motherland/danforth.jpg) no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
 }
 
 /* About */
 
 .about {
-    padding: 50px 0;
-    background-color: #fff;
+  padding: 50px 0;
+  background-color: #fff;
 }
 
 /* Services */
 
 .services {
-    padding: 50px 0;
-    background-color: #000;
+  padding: 50px 0;
+  background-color: #000;
 }
-
 .service-item {
-    margin-bottom: 30px;
+  margin-bottom: 30px;
 }
 
 /* Callout */
 
 .callout {
-    display: table;
-    width: 100%;
-    height: 50%;
-    color: #fff;
-    background: url(http://res.cloudinary.com/uiowabetas/image/upload/v1432942303/motherland/callout.png) no-repeat center center scroll;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
+  display: table;
+  width: 100%;
+  height: 50%;
+  color: #fff;
+  background: url(http://res.cloudinary.com/uiowabetas/image/upload/v1432942303/motherland/callout.png) no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
 }
-
 @media(max-width:768px) {
-    .callout {
-        height: 25%;
-    }
+  .callout {
+    height: 25%;
+  }
 }
 
 /* Call to Action */
 
 .call-to-action {
-    padding: 50px 0;
-    background-color: #444;
+  padding: 50px 0;
+  background-color: #444;
 }
-
 .call-to-action .btn {
-    margin: 10px;
+  margin: 10px;
 }
-
 .map {
-    height: 50%;
-    background-color: #560e82;
+  height: 50%;
+  background-color: #560e82;
+}
+@media(max-width:768px) {
+  .map {
+    height: 75%;
+  }
 }
 
-@media(max-width:768px) {
-    .map {
-        height: 75%;
-    }
-}
 /*******************************************************************/
 
 h1 {
   font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: #fff;
-  font-size: 20px;
+  font-size: 30px;
 }
 @media(max-width:768px) {
   h1 {
-    font-size: 30px;
+    font-size: 20px;
     font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
   }
 }
@@ -234,51 +211,74 @@ h1 {
 .annual {
   width: 50%;
 }
-.shirt{
+.shirt {
   width: 100%;
 }
-
 .sociallinks:hover, .sociallinks:active {
-    color:#fff;
-    padding:15px;
+  color: #fff;
+  padding: 15px;
 }
 .sociallinks:link, .sociallinks:visited {
-    color:#fff;
-    padding:15px;
+  color: #fff;
+  padding: 15px;
 }
-h2, .lead{
+h2, .lead {
   color: #000;
 }
-
-h3{
+h3 {
   font-size: 45px;
   weight: bold;
   color: #fff;
 }
 @media(min-width:768px) {
-    .h3 {
-        height: 75px;
-    }
+  .h3 {
+    height: 75px;
+  }
 }
-
-h4{
-  color:#fff;
-}
-p{
+h4 {
   color: #fff;
 }
-li{
+p {
+  color: #fff;
+}
+li {
   font-size: 20px;
 }
-.white-icons{
+.white-icons {
   color: #fff;
 }
-.black-icons{
+.black-icons {
   color: #000;
 }
-
-.modal-header{
-  background: url(http://res.cloudinary.com/uiowabetas/image/upload/v1432975586/motherland/speakers.jpg) no-repeat center center scroll;
+.bbq {
+  background: url(http://res.cloudinary.com/uiowabetas/image/upload/v1434650338/motherland/bbqtime.jpg) no-repeat center center scroll;
+  width: 100%;
+  height: 400px;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+.olympics {
+  background: url(http://res.cloudinary.com/uiowabetas/image/upload/v1434653729/motherland/olympics.jpg) no-repeat center center scroll;
+  width: 100%;
+  height: 400px;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+.strollcomp {
+  background: url(http://res.cloudinary.com/uiowabetas/image/upload/v1434653516/motherland/stroll.jpg) no-repeat center center scroll;
+  width: 100%;
+  height: 400px;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+.social {
+  background: url(http://res.cloudinary.com/uiowabetas/image/upload/v1434656287/motherland/social.jpg) no-repeat center center scroll;
   width: 100%;
   height: 400px;
   -webkit-background-size: cover;
