@@ -248,7 +248,7 @@ li {
   color: #fff;
 }
 .black-icons {
-  color: #000;
+  color: #FF3399;
 }
 .bbq {
   background: url(http://res.cloudinary.com/uiowabetas/image/upload/v1434650338/motherland/bbqtime.jpg) no-repeat center center scroll;
@@ -325,4 +325,10 @@ li {
   background-size: cover;
   -o-background-size: cover;
 }
+}
+
+
+.heading{
+  background-color: #560e82;
+  color: #fff;
 }
